@@ -1,0 +1,31 @@
+<resources>
+
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="actionBarTheme">@style/MyTheme</item>
+
+    </style>
+
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+
+
+    </style>
+
+
+
+    <style name="mySpinnerItemStyle" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@color/colorPrimary</item>
+
+
+    </style>
+
+
+    
+
+
+
+
+</resources>

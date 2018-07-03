@@ -1,0 +1,226 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="4"
+        android:paddingTop="14dp">
+
+        <ImageView
+            android:id="@+id/im_arac"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/otomobil"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="30dp"
+
+            />
+        <TextView
+            android:id="@+id/mesafe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/counterDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:textSize="85sp"
+            android:gravity="clip_horizontal"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/hizsiniri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hız Sınırı : 120km/saat "
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="4"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Otoyol : "
+                android:textSize="24sp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/otoyol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anadolu Otoyolu"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="4">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giriş Gişesi : "
+                android:textSize="24sp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/giris_gisesi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Urla"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="4">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Çıkış Gişesi : "
+                android:textSize="24sp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/cikis_gisesi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sabancılar"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="4">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Geçiş Ücreti (Araç sınıfı) :"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="4">
+
+            <TextView
+                android:id="@+id/ucretler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.25tl - 3.24tl - 3.23tl - 4.35tl - 3.23tl"
+                android:textSize="17sp"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="3">
+
+            <Button
+                android:id="@+id/b_baslat"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:background="@drawable/baslatselector"
+                android:text="Başlat"
+                android:textSize="27sp"
+                android:textColor="@color/textColorPrimary"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+
+                />
+            <Button
+                android:id="@+id/b_sifirla"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:background="@drawable/sifirlaselector"
+                android:text="Sıfırla"
+                android:textSize="27sp"
+                android:textColor="@color/textColorPrimary"
+                android:textStyle="bold"
+
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

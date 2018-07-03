@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#41c9c5</color>
+    <color name="colorPrimaryDark">#2b8482</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColorPrimary">#431c17</color>
+    <color name="colorStart">#43ceca</color>
+    <color name="startButtonColor">#38ea74</color>
+    <color name="startButtonPressedColor">#c838ea74</color>38ea74
+    <color name="startButtonPassiveColor">#2b8482</color>
+
+    <color name="sifirlaButtonColor">#e10a47</color>
+    <color name="sifirlaButtonPressedColor">#c8e10a47</color>38ea74
+    <color name="sifirlaButtonPassiveColor">#2b8482</color>
+</resources>
+<!--431c17 -->

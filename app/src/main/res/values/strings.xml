@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hız Koridoru</string>
+
+    <string-array name="Convert_Type">
+        <item>TemperatureString</item>
+        <item>WeightString</item>
+        <item>VolumeString</item>
+        <item>SpeedString</item>
+        <item>LengthString</item>
+        <item>AreaString</item>
+        <item>EnergyString</item>
+        <item>PresureString</item>
+        <item>MemoryString</item>
+    </string-array>
+</resources>

@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="Giriş ve Çıkış  Gişesini \n  Belirleyiniz"
+            android:textSize="27sp" />
+
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1"
+       android:orientation="vertical"
+       android:paddingHorizontal="15dp"
+
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:gravity="center"
+
+           >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="80dp"
+               android:text="Giriş Gişesi :"
+               android:gravity="center"
+               android:textSize="21sp"
+               android:textColor="@color/textColorPrimary"
+               android:paddingRight="20dp"
+               android:paddingLeft="20dp"
+               android:background="@color/colorPrimaryDark"
+
+               />
+           <Spinner
+               android:id="@+id/sp_giris"
+               android:layout_width="match_parent"
+               android:layout_height="80dp"
+               style="@style/mySpinnerItemStyle"
+               android:entries="@array/Convert_Type"
+               android:background="@drawable/girisspinnerselector"
+               android:popupBackground="@color/colorPrimaryDark"
+               android:popupElevation="0dp"
+
+
+               />
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:gravity="center"
+           >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="80dp"
+               android:text="Çıkış Gişesi :"
+               android:gravity="center"
+               android:textSize="21sp"
+               android:textColor="@color/textColorPrimary"
+               android:paddingRight="20dp"
+               android:paddingLeft="20dp"
+               android:background="@color/colorPrimaryDark"
+
+               />
+           <Spinner
+               android:id="@+id/sp_cikis"
+               android:layout_width="match_parent"
+               android:layout_height="80dp"
+               android:entries="@array/Convert_Type"
+               style="@style/mySpinnerItemStyle"
+               android:background="@drawable/cikisspinnerselector"
+               android:popupBackground="@color/colorPrimaryDark"
+               android:popupElevation="0dp"
+
+               />
+
+
+
+       </LinearLayout>
+
+
+   </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+        <Button
+            android:id="@+id/b_hesapla"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/hesaplaselector"
+            android:text="Hesapla"
+            android:textSize="27sp"
+
+
+
+
+
+
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

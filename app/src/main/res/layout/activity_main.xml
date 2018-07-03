@@ -1,0 +1,412 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="6"
+       android:background="@color/colorPrimary"
+       android:paddingTop="10dp"
+       android:layout_marginBottom="0dp"
+       >
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/textColorPrimary"
+           android:gravity="center"
+           android:text="Kullandığınız Araç \n
+ cinsini Seçiniz"
+           android:textSize="27sp"
+           android:textStyle="bold"/>
+
+   </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#41c9c5"
+            android:orientation="vertical"
+            >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:background="#121212"
+                android:layout_marginTop="10dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/im_otomobil"
+                android:background="@drawable/aracselector"
+                >
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/otomobil"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorPrimary"
+                    android:text=" Otomobil (M1), (M1G) "
+                    android:textSize="21sp"
+                    android:textAlignment="center"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:textStyle="normal"
+
+
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:background="#121212"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/im_minubus_otobus"
+                android:background="@drawable/aracselector">
+
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/minubusotobus"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorPrimary"
+                    android:text="Minibüs - Otobüs(M2-M3)"
+                    android:textSize="21sp"
+                    android:textAlignment="center"
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:textStyle="normal"
+
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:background="#121212"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/im_panelvan"
+                android:background="@drawable/aracselector">
+
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/panelvan"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorPrimary"
+                    android:text="Panelvan"
+                    android:textSize="21sp"
+                    android:textAlignment="center"
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:textStyle="normal"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:background="#121212"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/im_kamyonet"
+                android:background="@drawable/aracselector">
+
+
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/kamyonet"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorPrimary"
+                    android:text="Kamyonet (N1 - N1G)"
+                    android:textSize="21sp"
+                    android:textAlignment="center"
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:textStyle="normal"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:background="#121212"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/im_kamyon"
+                android:background="@drawable/aracselector">
+
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/kamyon"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorPrimary"
+                    android:text="Kamyon (N2 - N3)"
+                    android:textSize="21sp"
+                    android:textAlignment="center"
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:textStyle="normal"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:background="#121212"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/im_motosikletl3"
+                android:background="@drawable/aracselector">
+
+
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/motosikletl3"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorPrimary"
+                    android:text="Motosiklet (L3)"
+                    android:textSize="21sp"
+                    android:textAlignment="center"
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:textStyle="normal"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:background="#121212"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/im_motosikletl457"
+                android:background="@drawable/aracselector">
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/motosikletl457"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorPrimary"
+                    android:text="Motosiklet (L4,L5,L7)"
+                    android:textSize="21sp"
+                    android:textAlignment="center"
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:textStyle="normal"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:background="#121212"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/im_tehlikeli"
+                android:background="@drawable/aracselector">
+
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/tehlikeli"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorPrimary"
+                    android:text="Tehlikeli madde taşıyan  ve özel yük taşıma izinli olan araçlar "
+                    android:textSize="21sp"
+                    android:textAlignment="center"
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:textStyle="normal"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:background="#121212"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/im_araccekici"
+                android:background="@drawable/aracselector">
+
+
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/araccekici"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorPrimary"
+                    android:text="Arızalı bir aracı çeken araçlar"
+                    android:textSize="21sp"
+                    android:textAlignment="center"
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:textStyle="normal"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:background="#121212"
+                />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
+
+
